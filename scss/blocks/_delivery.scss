@@ -1,0 +1,38 @@
+@import "../vars";
+
+.delivery {
+  background-color: $accent-dark;
+  color: $light;
+
+  &__inner {
+    margin: 0 auto;
+    padding-top: 80px;
+    padding-bottom: 70px;
+    text-align: center;
+  }
+  &__title {
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 37px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+    color: $light;
+    margin-bottom: 23px;
+  }
+
+  & span {
+    font-weight: 300;
+  }
+
+  &__text {
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 26px;
+    color: $light;
+  }
+}
